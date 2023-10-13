@@ -34,6 +34,7 @@ body{background-image: url("../imagenes/fondo.jpg");background-repeat: round;bac
 @media (min-width:768px) and (max-width: 991px) {
 body{background-image: url("../imagenes/fon.jpg");background-repeat: round;background-attachment: scroll;}
 .mapas{display: none;}
+.contenedor1{display: none;}
 }
 @media (min-width:992px){
   body{background-image: url("../imagenes/fondoo.jpg"); background-repeat: no-repeat; background-attachment: scroll;}
