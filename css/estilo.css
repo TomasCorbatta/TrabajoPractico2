@@ -19,7 +19,7 @@ footer{ float: left;width: 100%;display: flex;justify-content: space-around;bord
 header{display: flex;justify-content: space-around;align-items: center;flex-wrap: wrap;}
 .red{display: flex;justify-content: space-around;}
 .redes{display: flex;justify-content: space-around;align-self: center;}
-.contenedor{display: flex;justify-content: space-around;}
+.contenedor{display: flex;justify-content: space-around;flex-wrap: wrap;}
 .contenedor1{display: flex;justify-content: space-around;}
 nav{display: flex;flex-direction: row;justify-content:space-evenly;flex-wrap: wrap;}
 button{ background: #A7FE31 ;cursor: pointer;border: none;padding: 16px 32px;color: azure; font-size: 24px;font-weight: bold;position: relative;border-radius: 12px;}
