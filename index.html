@@ -10,10 +10,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="shortcut icon" href="./imagenes/logo2.ico">
       <link rel="stylesheet" href="./css/estilo.css">
+      <script>alert("Bienvenidos a la mejor receta de Semitas!!!")</script>
   </head>
   <body>
       <a href="https://web.whatsapp.com/" class="btn-wsp" target="_blank"><img class="wsp"src="./imagenes/whats.png"></a>
-      <header>
+      <header >
         <img src="./imagenes/icono.png" alt="icono">
     <h1 class="titulo">Semitas Sanjuaninas</h1>
     <div class="red">
@@ -23,7 +24,7 @@
       <a href="https://www.youtube.com/" target="_blank"><img src="./imagenes/youtube.png"></a>
     </div>
   </header>
-  <nav>
+  <nav >
     <button>
     <a class="intro" href="contactos.html">Contacto</a>
     </button>
@@ -42,8 +43,9 @@
   <button>
     <a class="intro" href="#Mapa"> Mapa </a>
   </button>
+  <button class="intro" onclick="cambiarfondo()">Modo Oscuro</button>
 </nav>
-<main>
+<main >
   <h2 class="subtitulo">¿Hay algo más sanjuanino que las semitas con chicharrones? </h2>
   <p class="parrafo">Pocas cosas son más sanjuaninas que las semitas con chicharrones. Y casi nada más necesario que una buena semita a la hora del mate o el “yerbeado”. Son tan indispensables en nuestra cultura que desde hace unos años se elige la mejor semita en una fiesta popular donde abundan los secretos para elaborar la más rica semita del mundo. ¿Cómo nació la idea de sumar chicharrones a un pedazo de pan? Un sitio especializado -contactoconlodivino- asegura que el chicharrón se inicia con los negros libertos traídos a la colonia por los españoles, y estos tenían la costumbre de criar cerdos para su consumo.  La grasa del cerdo representaba  para ellos el elemento primario para engrasar los alimentos; y el  chicharrón  sólo era el residuo (un producto secundario obtenido del  proceso de derretir la grasa) y sólo era utilizado para la alimentación de otros animales. Dicen que en esa época las personas no consumían el chicharrón. Pero poco a poco las costumbres fueron cambiando. Primero, se vendió a muy bajo precio, o bien se regalaba a los pobres.  Pero luego, su consumo se fue popularizando en todos los estratos de las diferentes sociedades de las colonias latinoamericanas. Fue seguramente alguna mente creativa la que pensó que sería una buena combinación sumar chicharrones a la masa del pan y de ahí al formato redondo y pequeño de las semitas sólo quedaba un corto paso.  </p>
 <p class="visita"><b>Entonces si visitas San Juan no te podes ir sin haber degustado las Semitas.</b></p>
@@ -77,7 +79,7 @@
 </ol>
 <p>Y nada mejor que comer una semita caliente y crujiente recién salida del horno!</p>
 </main>
-<aside>
+<aside id="aside">
   <div class="recetass">
     <h2 >Otras recetas</h2>
     <a href="https://cookpad.com/ar/recetas/13783877-semitas-sanjuaninas" target="_blank"><img src="./imagenes/receta.png"  ></a>
@@ -89,7 +91,7 @@
     <a href="https://cookpad.com/ar/recetas/13694681-semitas-sanjuaninas-veganas" target="_blank"><img src="./imagenes/receta.png"></a>
   </div>
 </aside>
-<section>
+<section id="section1" class="section2">
   <br>
   <div class="video">
 <p id="Video"class="ultimo">Vídeos sobre la preparación:</p>
@@ -109,7 +111,7 @@
   <div class="container-fluid">
   <div class="row">
   <div class="col-sm-12 col-md-6 col-lg-3">
-    <div class="card" style="width: 19rem;">
+    <div class="card">
     <img src="https://elretratodehoy.com.ar/wp-content/uploads/2023/03/Fotos-MGP-Ruta-del-Alfajor-Mar-del-Plata-Km-Cero-200x200.jpeg" class="card-img-top" alt="Alfajores Marplatenses">
     <div class="card-body">
       <h5 class="card-title">Alfajores Marplatenses</h5>
@@ -119,7 +121,7 @@
   </div>
   </div>
   <div class="colm-sm-12 col-md-6 col-lg-3">
-    <div class="card" style="width: 19rem;">
+    <div class="card">
       <img src="https://yummyaddiction.com/wp-content/uploads/2014/07/Mini-Leche-Flan-200x200.jpg" class="card-img-top" alt="flan">
       <div class="card-body">
         <h5 class="card-title">Flan</h5>
@@ -129,7 +131,7 @@
     </div>
   </div>
   <div class="colm-sm-12 col-md-6 col-lg-3">
-    <div class="card" style="width: 19rem;">
+    <div class="card">
     <img src="https://i.pinimg.com/200x/c4/99/c3/c499c38c3e156624fd7ada3cfb48cfcb.jpg" class="card-img-top" alt="Chocotorta">
     <div class="card-body">
       <h5 class="card-title">Chocotorta</h5>
@@ -139,7 +141,7 @@
   </div>
   </div>
   <div class="colm-sm-12 col-md-6 col-lg-3">
-    <div class="card" style="width: 19rem;">
+    <div class="card">
       <img src="https://cuk-it.com/wp-content/uploads/2020/06/alfajores-maicena-200x200.webp" class="card-img-top" alt="alfajores de maicena">
       <div class="card-body">
         <h5 class="card-title">Alfajores de maicena</h5>
@@ -151,7 +153,7 @@
   </div>
   </div>
 </section>
-<footer>
+<footer id="footer" >
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99611.45926960459!2d-62.338772511935595!3d-38.72106669821813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcabdc1302bd%3A0x76d1d88d241e7a11!2sBah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1695946163881!5m2!1ses!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   <div>
   <h2>Siguenos</h2>
@@ -164,13 +166,10 @@
   </div>
   <br>
   <div>
-  <p>Información del desarrollador:</p>
-  <p>Tomás Corbatta</p>
-  <p>Gmail: tcr6420@gmail.com</p>
-  <p>Bahía Blanca,Argentina</p>
-  <p>Front End</p>
+    <button  class="intro"onclick="info()"> Autor</button>
   </div>
-</footer>
+</footer >
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="./js/javas.js"></script>
   </body>
 </html>

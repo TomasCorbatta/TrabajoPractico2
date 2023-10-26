@@ -12,7 +12,7 @@
 .mapa{box-shadow: 0px 10px 10px red}
 .wsp{position: fixed;width: 55px;height: 55px;line-height: 55px;bottom: 30px;right: 30px;border-radius: 50px;text-align: center;}
 main{float: left;; height:40%; ;width: 80%;}
-aside{ width: 20%; height: 60%;float: left;}
+aside{ width: 20%; height: 100%;float: left;}
 .recetass{ display: grid; justify-content: center;}
 section{float: left;display: block;}
 footer{ float: left;width: 100%;display: flex;justify-content: space-around;border-block-start-style:dotted; font-size: 150%;flex-wrap: wrap;background-color: #FEAD31;}
@@ -25,18 +25,22 @@ nav{display: flex;flex-direction: row;justify-content:space-evenly;flex-wrap: wr
 button{ background: #A7FE31 ;cursor: pointer;border: none;padding: 16px 32px;color: azure; font-size: 24px;font-weight: bold;position: relative;border-radius: 12px;}
 button:hover::before {content: "";position: absolute;top: 0;left: 0;z-index: -1;width: 100%;height: 100%;background: linear-gradient(45deg, black,yellow, deeppink, blue, black, blue, deeppink, blue);background-size: 800%;border-radius: 12px;filter: blur(8px);animation: glowing 20s linear infinite;}
 .intro {color:black;text-decoration: none;font-family: 'Shadows Into Light', cursive;}
+.section2{width:100%}
 @media  (min-width: 575px) and (max-width: 767px) {
-body{background-image: url("../imagenes/fondo.jpg");background-repeat: round;background-attachment: scroll;}
+body{background: rgb(255,244,0);
+background: linear-gradient(0deg, rgba(255,244,0,1) 0%, rgba(143,255,0,1) 100%);}
   .contenedor{display: none;}
   .mapa{display: none;}
   .video{display: none;}
 }
 @media (min-width:768px) and (max-width: 991px) {
-body{background-image: url("../imagenes/fon.jpg");background-repeat: round;background-attachment: scroll;}
+body{background: rgb(255,244,0);
+background: linear-gradient(0deg, rgba(255,244,0,1) 0%, rgba(255,160,0,1) 100%);}
 .mapas{display: none;}
 }
 @media (min-width:992px){
-  body{background-image: url("../imagenes/fondoo.jpg"); background-repeat: no-repeat; background-attachment: scroll;}
+  body{background: rgb(0,104,255);
+background: linear-gradient(0deg, rgba(0,104,255,1) 0%, rgba(0,255,247,1) 100%);}
 .mapas{display: none;}
 .contenedor1{display: none;}
 }
